@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="cn.studyjams.s1.sj67.zhangmeng">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/one" />
+        <activity
+            android:name=".Main3Activity"
+            android:label="@string/two" />
+        <activity
+            android:name=".Main4Activity"
+            android:label="@string/three" />
+        <activity
+            android:name=".Main5Activity"
+            android:label="@string/four" />
+        <activity
+            android:name=".Main6Activity"
+            android:label="@string/five" />
+    </application>
+
+</manifest>

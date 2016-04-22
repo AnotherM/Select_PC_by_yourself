@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cn.studyjams.s1.sj67.zhangmeng.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <CheckBox
+            android:id="@+id/cb_readme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ReadMe"
+            android:gravity="center"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/darker_gray" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/main_intro" />
+
+        <Button
+            android:id="@+id/btn_appearance"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:onClick="openOne"
+            android:text="@string/btn_one" />
+
+        <Button
+            android:id="@+id/btn_cpu"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:onClick="openTwo"
+            android:text="@string/btn_two" />
+
+        <Button
+            android:id="@+id/btn_gpu"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:onClick="openThree"
+            android:text="@string/btn_three" />
+
+        <Button
+            android:id="@+id/btn_ram"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:onClick="openFour"
+            android:text="@string/btn_four" />
+
+        <Button
+            android:id="@+id/btn_hdd"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:onClick="openFive"
+            android:text="@string/btn_five" />
+
+        <Button
+            android:id="@+id/openGithub"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:text="@string/btn_Github" />
+    </LinearLayout>
+</ScrollView>

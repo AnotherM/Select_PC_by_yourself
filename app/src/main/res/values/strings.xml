@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Select PC by yourself</string>
+    <string name="main_intro">When we buy a PC,a high configuration but not expensive computer is not easy to select,\nif you don\'t know how to select them,there maybe have some idea to help you,\nLet\'s get start</string>
+    <string name="btn_one">Appearance</string>
+    <string name="btn_two">CPU</string>
+    <string name="btn_three">GPU</string>
+    <string name="btn_four">RAM</string>
+    <string name="btn_five">Hard Disk</string>
+    <string name="one">Appearance</string>
+    <string name="two">CPU</string>
+    <string name="three">GPU</string>
+    <string name="four">RAM</string>
+    <string name="five">Hard Disk</string>
+    <string name="btn_Github">Visit My Github</string>
+    <string name="ReadMe">Notes:This is only my opinion for reference only</string>
+</resources>

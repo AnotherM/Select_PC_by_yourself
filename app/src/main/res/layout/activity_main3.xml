@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cn.studyjams.s1.sj67.zhangmeng.Main3Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/two"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="首先，要讲解的是CPU" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="如果你给Youtube的Linus科技组发布的视频点过赞，那么你一定对硬件有所了解，不然你就会觉得那么多硬件的花销，如果放在自己身上早就可以环游世界去了" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="在这里，我要说明的是，电脑硬件可不像旅游那么简单"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="就拿外观那篇文章中，我提到的朋友和我的电脑，CPU都是i5-4210，但一个带着H后缀，一个带着U后缀" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="如果你不了解的话，你就会觉得这两个都是i5，型号型号相同并没区别，但是实际上U代表低电压版本，要知道，对于电子产品来说，不给足电的话，就意味着性能会底下，这也可以解释，为什么你笔记本电脑使用电池的时候会不如插上电源时候流畅，因为是低电压版，所以在性能上相比H缩了很多水" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="或许有人注意到，还有一种M后缀的，这个相对于其他两个有什么区别吗？在这里说明一下，M后缀的代表CPU未焊接在主板，也就是可以更换，提一个疯狂的想法就是可以把i5的CPU换成i7，为什么说疯狂呢，因为双核换成四核意味着性能提升但功耗增加，原厂的电源适配器有可能电压不足所以导致i7并不能正常工作" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="说了这么多，或许你就可以在CPU方面有些许了解了，那么接下来返回主页面看看其他东西吧" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">挑选你自己的电脑</string>
+    <string name="main_intro">当我们买电脑的时候，一个高配置并且不贵的电脑很不容易挑选，\n如果你不知道如何挑选的话，下面或许有一些能帮助你的想法，\n让我们开始吧</string>
+    <string name="btn_one">外观</string>
+    <string name="btn_five">硬盘</string>
+    <string name="btn_four">内存</string>
+    <string name="btn_three">显卡</string>
+    <string name="btn_two">CPU</string>
+    <string name="five">硬盘</string>
+    <string name="four">内存</string>
+    <string name="one">外观</string>
+    <string name="three">显卡</string>
+    <string name="two">CPU</string>
+    <string name="btn_Github">Visit My Github</string>
+    <string name="ReadMe">注：这只是个人观点，仅供参考</string>
+</resources>
